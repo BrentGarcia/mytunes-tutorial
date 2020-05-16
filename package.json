@@ -5,13 +5,15 @@
   "main": "index.js",
   "dependencies": {
     "browserify": "^16.5.1",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.5.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://BrentGarcia.github.io/mytunes-tutorial"
 }
